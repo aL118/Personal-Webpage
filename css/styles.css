@@ -35,7 +35,7 @@ hr{
   margin:100px auto 0px auto;
 }
 .avatar{
-  width:25%;
+  width:100%;
 }
 .art{
   width:25%;
@@ -48,8 +48,12 @@ hr{
   margin-left: 30px;
 }
 #top-container{
-  background-color: #E4F9F5;
   padding-top:100px;
+  background-image: url('../images/desk2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 50px;
+  height: 700px;
 }
 .top-cloud{
   position:absolute;
@@ -163,6 +167,19 @@ ul.timeline > li:before {
 .left-align{
   text-align: left;
 }
+
 #bottom-container h4{
   color:#ffffff;
+}
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+.progress-bar{
+  background-color:#11999E;
+}
+.navbar {
+  background-color: #E4F9F5!important;
+  padding: 0;
+  height: 50px;
 }
